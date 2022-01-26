@@ -1,5 +1,5 @@
 Canvas = document.getElementById('myCanvas');
-ctx=canvas.getContext("2d");
+ctx=Canvas.getContext("2d");
 window.addEventListener("keydown", my_keydown);
 
 img_width = 300;
